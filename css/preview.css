@@ -1,0 +1,114 @@
+.preview {
+  background-blend-mode: multiply;
+  position: relative;
+  background-image: url('../images/preview-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+
+.preview__title {
+  padding-top: 228px;
+  color: rgba(255, 255, 255, 0.86);
+  text-align: center;
+  font-family: Roboto;
+  white-space: pre-line;
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+.preview__subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 141%;
+  max-width: 960px;
+  margin: 0 auto 90px;
+}
+
+.preview__subtitle:last-child {
+  margin-bottom: 0;
+}
+
+
+.preview__link-box {
+  padding-bottom: 120px;
+}
+
+.preview__link {
+  padding: 12px 48px;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #15A9CB;
+  box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.30);
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.preview__link:hover {
+  background-color: #256c7c;
+}
+
+@media(max-width: 1024px) {
+
+  .preview__title {
+    padding-top: 156px;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 27px;
+  }
+
+  .preview__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 754px;
+    margin-bottom: 59px;
+  }
+
+  .preview__link-box {
+    padding-bottom: 69px;
+  }
+}
+
+
+
+@media (max-width: 560px) {
+  section .section {
+    padding: 30px 0;
+  }
+
+  .preview__link-box {
+    padding-bottom: 14px;
+  }
+
+  .preview__title {
+    white-space: pre-line;
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 26px;
+  }
+
+  .preview__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+  }
+
+  .preview__link {
+    padding: 9px 37px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

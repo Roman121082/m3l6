@@ -1,0 +1,12 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.footer-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
