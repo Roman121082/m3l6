@@ -13,10 +13,10 @@
   color: rgba(255, 255, 255, 0.86);
   text-align: center;
   font-family: Roboto;
-  white-space: pre-line;
   font-size: 52px;
   font-weight: 900;
-  margin-bottom: 35px;
+  max-width: 990px;
+  margin: 0 auto 35px;
 }
 
 .preview__subtitle {
@@ -64,7 +64,8 @@
     padding-top: 156px;
     font-size: 40px;
     line-height: 47px;
-    margin-bottom: 27px;
+    max-width: 780px;
+    margin: 0 auto 27px;
   }
 
   .preview__subtitle {
@@ -87,17 +88,17 @@
   }
 
   .preview__link-box {
-    padding-bottom: 14px;
+    padding-bottom: 35px;
   }
 
   .preview__title {
-    white-space: pre-line;
     padding-top: 80px;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 26px;
+    max-width: 290px;
   }
 
   .preview__subtitle {
